@@ -1,1 +1,51 @@
-/*# sourceMappingURL=home.css.map */
+@font-face {
+  font-family: Din;
+  src: url(/fonts/DIN\ Medium.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.darkmode {
+  background-color: black;
+  color: white;
+}
+
+.darkmode a {
+  color: white;
+}
+
+.navbar img {
+  width: 5%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Din;
+  font-size: large;
+}
+
+.navbar nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.navbar nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 6%;
+}/*# sourceMappingURL=home.css.map */
