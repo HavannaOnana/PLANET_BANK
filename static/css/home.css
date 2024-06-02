@@ -34,6 +34,7 @@ body {
   justify-content: space-around;
   font-family: Din;
   font-size: large;
+  margin-top: 2%;
 }
 
 .navbar nav {
@@ -64,6 +65,7 @@ body {
   font-size: x-large;
   font-family: light;
   font-weight: lighter;
+  margin-top: 5%;
 }
 
 .mainbody .mainbody_icons {
@@ -76,7 +78,7 @@ body {
 .mainbody .mainbody_icons .icon1 {
   position: absolute;
   margin-top: 4%;
-  color: #22092C;
+  color: wheat;
 }
 
 .mainbody img {
@@ -85,10 +87,14 @@ body {
 
 footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
-  align-items: center;
-  margin-top: 6%;
+  align-items: flex-start;
+  margin-top: 10%;
+  background-color: #22092C;
+  color: #FEFAF6;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .first_row {
@@ -96,7 +102,8 @@ footer {
   flex-direction: row;
   align-items: center;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  font-family: Din;
 }
 
 .column1_text {
@@ -105,10 +112,42 @@ footer {
   align-items: center;
 }
 
+.column1_text p {
+  margin-left: 2%;
+}
+
 .column1_text ion-icon {
   font-size: larger;
 }
 
 .column1 {
-  width: 10%;
+  width: min-content;
+}
+
+textarea {
+  background-color: beige;
+}
+
+button {
+  font-family: Din;
+  background-color: #22092C;
+  color: wheat;
+  border-radius: 2%;
+}
+
+hr {
+  color: white;
+  width: 95%;
+}
+
+.footericons {
+  display: flex;
+  font-size: x-large;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1.5%;
+}
+
+.footericons ion-icon {
+  margin-left: 2%;
 }/*# sourceMappingURL=home.css.map */
