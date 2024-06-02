@@ -81,9 +81,42 @@ body{
 .mainbody .mainbody_icons .icon1{
     position: absolute;
   margin-top:4%;
+  color: #22092C;
   
 }
 
 .mainbody img{
     width: 35%;
+}
+
+
+// css for the footer 
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin-top: 6%;
+}
+
+.first_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.column1_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.column1_text ion-icon{
+    font-size: larger;
+}
+
+.column1{
+    width: 10%;
 }
