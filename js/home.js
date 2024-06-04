@@ -29,7 +29,7 @@ Darkmode.addEventListener("click" , function(){
 
   if(IsDarkMode){
     Logo.setAttribute("src", "/images/dark mode-Photoroom.png-Photoroom.png");
-    PlanetBankImage.setAttribute("src","/images/planet_black-Photoroom.png")
+    PlanetBankImage.setAttribute("src","/images/business woman.svg")
     HtmlBody.classList.add("darkmode");
     FooterImage.setAttribute("src", "/images/1-Photoroom.png-Photoroom.png");
     Footer.style.backgroundColor="whitesmoke";
@@ -41,7 +41,7 @@ Darkmode.addEventListener("click" , function(){
   else{
     HtmlBody.classList.remove("darkmode");
     Logo.setAttribute("src", "/images/1-Photoroom.png-Photoroom.png");
-    PlanetBankImage.setAttribute("src", "/images/planet_white-Photoroom.png")
+    PlanetBankImage.setAttribute("src", "/images/business.svg")
     FooterImage.setAttribute("src","/images/dark mode-Photoroom.png-Photoroom.png");
     Footer.style.backgroundColor="#22092C";
     Footer.style.color="whitesmoke";

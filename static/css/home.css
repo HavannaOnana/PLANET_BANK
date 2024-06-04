@@ -138,6 +138,7 @@ button {
 hr {
   color: white;
   width: 95%;
+  font-size: smaller;
 }
 
 .footericons {
