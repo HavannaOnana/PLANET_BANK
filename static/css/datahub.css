@@ -62,20 +62,26 @@ body {
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
+  align-items: center;
 }
 
-.data1 {
+.data_1, .data_2 {
+  width: 40%; /* Adjust widths to create space between them */
+}
+
+.data_1 {
   display: flex;
   flex-direction: column;
-  align-content: space-around;
+  align-content: space-evenly;
 }
 
-.loan_amount {
-  width: 250%;
+.header {
+  width: 100%;
   font-size: larger;
+  margin-bottom: 20px; /* Add some bottom margin for spacing between headers */
 }
 
-.loan_amount_text {
+.header_text {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -83,31 +89,34 @@ body {
   justify-content: space-between;
 }
 
-.loan_amount_text p {
+.header_text p {
   font-family: light;
 }
 
-.loan_amount_text h2 {
+.header_text h2 {
   font-family: Din;
 }
 
-.loan_amount_text span {
-  color: brown;
+.header_text span {
+  color: orangered;
 }
 
 .line {
   background-color: lightblue;
   color: #FEFAF6;
   border-radius: 20px;
+  position: relative;
+  overflow: hidden;
 }
 
 .inside_line {
   width: 0%;
   height: 25px;
-  background-color: red;
+  background-color: orangered;
   border-radius: 20px;
   font-family: Din;
   transition: width 2s;
+  position: relative;
 }
 
 .inside_line span {
@@ -120,4 +129,68 @@ body {
   flex-direction: row;
   justify-content: space-between;
   font-family: light;
+}
+
+.yearly {
+  background-color: #22092C;
+  color: #FEFAF6;
+  padding: 6px;
+  border-radius: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: orangered solid 3px;
+  transition: background-color 1s ease-in-out;
+}
+
+.yearly:hover {
+  background-color: orangered;
+}
+
+.data_2 {
+  display: flex;
+  flex-direction: row; /* Adjust flex direction for better layout */
+  justify-content: space-between;
+  background-color: beige;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.side_1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.side_1 p {
+  font-family: light;
+}
+
+.piechart {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: conic-gradient(white 100deg, orangered 0 235deg);
+}
+
+.calculation {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.calculation h1 {
+  font-family: Din;
+  margin-left: 45%;
+}
+
+.principal {
+  color: orangered;
+}
+
+.interest {
+  color: white;
+}
+
+.calculation p {
+  font-family: light;
+  font-size: larger;
 }/*# sourceMappingURL=datahub.css.map */
