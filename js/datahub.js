@@ -35,3 +35,21 @@ Darkmode.addEventListener("click" , function(){
    }
 
 })
+
+// animation for the progress bars
+function ShowingProgress(){
+    document.addEventListener("DOMContentLoaded", function() {
+        var insideLine = document.querySelector(".inside_line");
+        var targetWidth = insideLine.getAttribute("data-progress");
+    
+        // Animation for the progress bar
+        setTimeout(function() {
+            insideLine.style.width = targetWidth + '%';
+            insideLine.querySelector('span').textContent = targetWidth + '%';
+        }, 100); // Delay to ensure the animation runs
+    });
+}
+
+// showing progress
+
+ShowingProgress();
