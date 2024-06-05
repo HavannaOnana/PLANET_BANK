@@ -77,7 +77,8 @@ body{
 }
 
 .loan_amount{
-    width: 100%;
+    width: 250%;
+    font-size: larger;
 
 }
 
@@ -89,6 +90,18 @@ body{
     justify-content: space-between;
 }
 
+.loan_amount_text p{
+    font-family: light;
+}
+
+.loan_amount_text h2{
+  font-family: Din;
+}
+
+.loan_amount_text span{
+    color: brown;
+}
+
 .line{
     background-color: #22092C;
     color: #FEFAF6;
@@ -96,15 +109,23 @@ body{
 }
 
 .inside_line{
-    width: 50%;
-    height: 17px;
+    width: 42%;
+    height: 25px;
     background-color: red;
     border-radius: 20px;
+    font-family: Din;
 }
 
 .inside_line span{
     position: relative;
     margin-left: 10%;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: light;
 }
 
 
