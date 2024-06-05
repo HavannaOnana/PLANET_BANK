@@ -29,7 +29,7 @@ Darkmode.addEventListener("click" , function(){
 
   if(IsDarkMode){
     Logo.setAttribute("src", "/images/dark mode-Photoroom.png-Photoroom.png");
-    PlanetBankImage.setAttribute("src","/images/business woman.svg")
+    PlanetBankImage.setAttribute("src","/images/business woman.svg");
     HtmlBody.classList.add("darkmode");
     FooterImage.setAttribute("src", "/images/1-Photoroom.png-Photoroom.png");
     Footer.style.backgroundColor="whitesmoke";
