@@ -156,7 +156,6 @@ body{
     display: flex;
     flex-direction: row; /* Adjust flex direction for better layout */
     justify-content: space-between;
-    background-color: beige;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -176,9 +175,93 @@ body{
     height: 200px;
     border-radius: 50%;
     background-image: conic-gradient(
-        white 100deg,
+        beige 100deg,
         orangered 0 235deg
     );
+    animation: fillPie 3s linear forwards;
+}
+
+.piechart-text-principle{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 2%;
+    font-family: Din;
+}
+
+.piechart-text-interest{
+    position: absolute;
+    margin-top: 4.5%;
+    margin-left: 8%;
+    font-family: Din;
+}
+
+@keyframes fillPie {
+    0% {
+        background-image: conic-gradient(
+            beige 0deg,
+            orangered 0deg
+        );
+    }
+    10% {
+        background-image: conic-gradient(
+            beige 10deg,
+            orangered 0 10deg
+        );
+    }
+    20% {
+        background-image: conic-gradient(
+            beige 20deg,
+            orangered 0 20deg
+        );
+    }
+    30% {
+        background-image: conic-gradient(
+            beige 30deg,
+            orangered 0 30deg
+        );
+    }
+    40% {
+        background-image: conic-gradient(
+            beige 40deg,
+            orangered 0 40deg
+        );
+    }
+    50% {
+        background-image: conic-gradient(
+            beige 50deg,
+            orangered 0 50deg
+        );
+    }
+    60% {
+        background-image: conic-gradient(
+            beige 60deg,
+            orangered 0 60deg
+        );
+    }
+    70% {
+        background-image: conic-gradient(
+            beige 70deg,
+            orangered 0 70deg
+        );
+    }
+    80% {
+        background-image: conic-gradient(
+            beige 80deg,
+            orangered 0 80deg
+        );
+    }
+    90% {
+        background-image: conic-gradient(
+            beige 90deg,
+            orangered 0 90deg
+        );
+    }
+    100% {
+        background-image: conic-gradient(
+            beige 100deg,
+            orangered 0 235deg
+        );
+    }
 }
 
 .calculation{
@@ -202,4 +285,8 @@ body{
 .calculation p{
     font-family: light;
     font-size: larger;
+}
+
+.calculation span{
+    color: orangered;
 }
