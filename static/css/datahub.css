@@ -69,6 +69,14 @@ body {
   color: orangered;
 }
 
+.data-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: larger;
+  font-family: light;
+}
+
 .ourdata {
   margin-top: 10%;
   display: flex;

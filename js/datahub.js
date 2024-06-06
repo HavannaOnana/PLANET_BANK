@@ -14,7 +14,13 @@ let ALinks = document.querySelectorAll("a");
 let IsDarkMode = false;
 
 // selecting the side2 for dark mode
-let Data2 = document.querySelector(".data_2")
+let Data2 = document.querySelector(".data_2");
+
+//selecting the footer background
+let Footer = document.querySelector("footer");
+
+// selecting footer image
+let FooterImage = document.querySelector(".footer_1");
 
 //adding an event listener 
 Darkmode.addEventListener("click" , function(){
@@ -24,6 +30,9 @@ Darkmode.addEventListener("click" , function(){
    if(IsDarkMode){
     Logo.setAttribute("src", "/images/dark mode-Photoroom.png-Photoroom.png");
     HtmlBody.classList.add("darkmode");
+    Footer.style.backgroundColor="whitesmoke";
+    Footer.style.color = "#22092C";
+    FooterImage.setAttribute("src", "/images/1-Photoroom.png-Photoroom.png");
     ALinks.forEach(element => {
         element.style.color = "white";
     });
@@ -31,6 +40,9 @@ Darkmode.addEventListener("click" , function(){
    else{
     HtmlBody.classList.remove("darkmode");
     Logo.setAttribute("src", "/images/1-Photoroom.png-Photoroom.png");
+    Footer.style.backgroundColor="#22092C";
+    Footer.style.color="whitesmoke";
+    FooterImage.setAttribute("src","/images/dark mode-Photoroom.png-Photoroom.png");
     ALinks.forEach(element => {
         element.style.color = "black";
     });
