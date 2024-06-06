@@ -8,6 +8,11 @@
     src: url(/fonts/DIN.ttf);
 }
 
+@font-face {
+    font-family: Lora;
+    src: url(/fonts/Lora-VariableFont_wght.ttf);
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -59,6 +64,16 @@ body{
     flex-direction: row;
     justify-content: space-around;
     width: 6%;
+}
+
+//data
+.data{
+    font-family: Lora;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    color: orangered;
 }
 
 //css for out datahub
@@ -164,7 +179,12 @@ body{
     width: 50%;
     display: flex;
     flex-direction: column;
+    background-color: lightblue;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 4%;
 }
+
 
 .side_1 p{
     font-family: light;
@@ -266,7 +286,9 @@ body{
 
 .calculation{
     padding-left: 3%;
-    padding-right: 3%;
+    padding-right: 13%;
+    background-color: whitesmoke;
+
 }
 
 .calculation h1{
@@ -289,4 +311,76 @@ body{
 
 .calculation span{
     color: orangered;
+}
+
+
+
+
+// css for the footer 
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 10%;
+    background-color: #22092C;
+    color: #FEFAF6;
+    padding-top: 2%;
+    padding-bottom:2% ;
+}
+
+.first_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    font-family: Din;
+}
+
+.column1_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.column1_text p{
+    margin-left: 2%;
+}
+
+.column1_text ion-icon{
+    font-size: larger;
+}
+
+.column1{
+    width: min-content;
+}
+
+textarea{
+    background-color: beige;
+}
+
+button{
+    font-family: Din;
+    background-color: #22092C;
+    color: wheat;
+    border-radius: 2%;
+}
+
+hr{
+    color: white;
+    width: 95%;
+    font-size: smaller;
+}
+
+.footericons{
+    display: flex;
+    font-size: x-large;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1.5%;
+}
+
+.footericons ion-icon{
+    margin-left: 2%;
 }

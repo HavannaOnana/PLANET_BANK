@@ -13,6 +13,8 @@ let ALinks = document.querySelectorAll("a");
 // made the darkmode false so i can switch it 
 let IsDarkMode = false;
 
+// selecting the side2 for dark mode
+let Data2 = document.querySelector(".data_2")
 
 //adding an event listener 
 Darkmode.addEventListener("click" , function(){
@@ -33,6 +35,7 @@ Darkmode.addEventListener("click" , function(){
         element.style.color = "black";
     });
    }
+   Data2.style.color = "black";
 
 })
 
