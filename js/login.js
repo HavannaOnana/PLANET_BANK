@@ -51,15 +51,32 @@ Darkmode.addEventListener("click" , function(){
 let Button = document.querySelector("button");
 
 // adding the username 
-let Username = document.querySelector('input[name = "username"]');
+let  UsernameInput = document.querySelector('input[name = "username"]');
 
 //selecting the password 
-let Password = document.querySelector('input[name = "password"]');
+let PasswordInput = document.querySelector('input[name = "password"]');
+
 
 //selecting login check to output whether you logged in sucessfully
-let LoginCheck = document.querySelector("logincheck");
+let LoginCheck = document.querySelector(".logincheck");
   
 //adding an eventlistner to button
 Button.addEventListener("click",function(){
-    
+    //getting the values of the username and password
+    let Username = UsernameInput.value;
+    let Password = PasswordInput.value;
+    // checking if the password and username is correct 
+    if(Username === "godrine" && Password === "12345"){
+       location.href = "/html/dashboard.html";
+       console.log("Sucess");
+    }
+    else{
+        LoginCheck.textContent = "Login Details Incorrect";
+        console.log("fail");
+        
+        //refreshing the page 
+        setTimeout(function(){
+            location.reload();
+        },2000)
+    }
 })
