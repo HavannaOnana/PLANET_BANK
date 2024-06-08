@@ -11,7 +11,7 @@ let ALinks = document.querySelectorAll("a");
 let Logo = document.querySelector(".logo");
 
 // selecting the image in the form
-let FormImage = document.querySelector(".form img");
+let BodyImage = document.querySelector(".login_body img");
 
 
 // made the darkmode false so i can switch it 
@@ -31,7 +31,7 @@ Darkmode.addEventListener("click" , function(){
     if(IsDarkMode){
       Logo.setAttribute("src", "/images/dark mode-Photoroom.png-Photoroom.png");
       HtmlBody.classList.add("darkmode");
-      FormImage.setAttribute("src","/images/dark mode-Photoroom.png-Photoroom.png")
+      BodyImage.setAttribute("src" ,"/images/loginimages_dark.svg")
       ALinks.forEach(element => {
           element.style.color = "white";
       });
@@ -39,7 +39,7 @@ Darkmode.addEventListener("click" , function(){
     else{
       HtmlBody.classList.remove("darkmode");
       Logo.setAttribute("src", "/images/1-Photoroom.png-Photoroom.png");
-      FormImage.setAttribute("src","/images/1-Photoroom.png-Photoroom.png")
+      BodyImage.setAttribute("src" ,"/images/loginimages.svg")
       ALinks.forEach(element => {
           element.style.color = "black";
       });

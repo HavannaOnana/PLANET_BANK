@@ -8,6 +8,12 @@
     src: url(/fonts/DIN.ttf);
 }
 
+@font-face {
+    font-family: Lora;
+    src: url(/fonts/Lora-VariableFont_wght.ttf);
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -67,9 +73,44 @@ body{
     flex-direction: row;
     width: 100%;
     justify-content: space-evenly;
-    margin-top: 10%;
+    margin-top: 7%;
+    align-items: center;
 }
 
 .form{
-    font-size: larger;
+    font-size: x-large;
+    font-family: Lora;
+}
+
+.form label{
+    font-family: din;
+    font-size: smaller;
+}
+
+.form h1{
+    font-family: lora;
+    color: orangered;
+}
+
+.form img{
+    width: 20%;
+}
+
+.form input{
+    height: 30px;
+    font-family: Din;
+}
+
+button{
+    width: 50%;
+    height: 29px;
+    background-color: orangered;
+    border: none;
+    color: #FEFAF6;
+    transition: background-color 1s ease-in-out , border 1s ease-in-out;
+}
+
+button:hover{
+    background-color: #22092C;
+    border: #FEFAF6 1px solid;
 }
