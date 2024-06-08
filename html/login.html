@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="/static/css/login.css">
+</head>
+<body>
+
+      <!--navbar-->
+      <div class="navbar">
+        <img src="/images/1-Photoroom.png-Photoroom.png" alt="" class="logo">
+        <!--nav-->
+        <nav>
+         <a href="/html/home.html">Home</a>
+         <a href="/html/datahub.html">Data Hub</a>
+         <a href="/html/login.html">Log In</a>
+        </nav>
+        <!--dark mode-->
+        <div class="icons">
+         <a href="https://github.com/HavannaOnana?tab=overview&from=2024-06-01&to=2024-06-02"><ion-icon name="logo-github"></ion-icon></a>
+         <ion-icon name="moon" id="darkmode"></ion-icon>
+        </div>
+     </div>
+
+
+     <!--login details-->
+     <div class="login_body">
+        
+        <!--form-->
+        <div class="form">
+             <img src="/images/1-Photoroom.png-Photoroom.png" alt="" width="10%">
+             <h1>Welcome Back</h1>
+             <div class="form_input">
+                <label for="username" id="username">Username : </label><br>
+                <input type="text" placeholder="Enter your username" name="username" required><br><br>
+                <label for="password" id="password">Password : </label><br>
+                <input type="password" placeholder="Enter your password " name="password"><br><br>
+                <button type="button">Login</button><br>
+                <h1 class="logincheck"></h1>
+             </div>
+        </div>
+
+     </div>
+
+
+
+    <script src="/js/login.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>

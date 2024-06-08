@@ -20,7 +20,7 @@ let PlanetBankImage= document.querySelector("#mainbody_img");
 let FooterImage = document.querySelector(".footer_1");
 
 //selecting the footer background
-let Footer = document.querySelector("footer")
+let Footer = document.querySelector("footer");
 
 // add an event listener to it 
 Darkmode.addEventListener("click" , function(){
