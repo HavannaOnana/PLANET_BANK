@@ -23,6 +23,11 @@ let FooterImage = document.querySelector(".footer_1");
 //selecting the footer background
 let Footer = document.querySelector("footer");
 
+//selecting the button
+let Button = document.querySelector("button");
+
+//selecting the button
+
 // add an event listener to it 
 Darkmode.addEventListener("click" , function(){
     // this toggles the value of the boolean variable
@@ -31,7 +36,11 @@ Darkmode.addEventListener("click" , function(){
     if(IsDarkMode){
       Logo.setAttribute("src", "/images/dark mode-Photoroom.png-Photoroom.png");
       HtmlBody.classList.add("darkmode");
-      BodyImage.setAttribute("src" ,"/images/loginimages_dark.svg")
+      BodyImage.setAttribute("src" ,"/images/loginimages_dark.svg");
+      FooterImage.setAttribute("src", "/images/1-Photoroom.png-Photoroom.png");
+      Button.style.backgroundColor= "orangered5752"
+    Footer.style.backgroundColor="whitesmoke";
+    Footer.style.color="#22092C";
       ALinks.forEach(element => {
           element.style.color = "white";
       });
@@ -39,7 +48,10 @@ Darkmode.addEventListener("click" , function(){
     else{
       HtmlBody.classList.remove("darkmode");
       Logo.setAttribute("src", "/images/1-Photoroom.png-Photoroom.png");
-      BodyImage.setAttribute("src" ,"/images/loginimages.svg")
+      BodyImage.setAttribute("src" ,"/images/loginimages.svg");
+      Footer.style.backgroundColor="#22092C";
+      Footer.style.color="whitesmoke";
+      FooterImage.setAttribute("src","/images/dark mode-Photoroom.png-Photoroom.png");
       ALinks.forEach(element => {
           element.style.color = "black";
       });
@@ -47,8 +59,6 @@ Darkmode.addEventListener("click" , function(){
     
 })
 
-//selecting the button
-let Button = document.querySelector("button");
 
 // adding the username 
 let  UsernameInput = document.querySelector('input[name = "username"]');

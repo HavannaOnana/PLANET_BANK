@@ -114,3 +114,72 @@ button:hover{
     background-color: #22092C;
     border: #FEFAF6 1px solid;
 }
+
+// css for the footer 
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 10%;
+    background-color: #22092C;
+    color: #FEFAF6;
+    padding-top: 2%;
+    padding-bottom:2% ;
+}
+
+.first_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    font-family: Din;
+}
+
+.column1_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.column1_text p{
+    margin-left: 2%;
+}
+
+.column1_text ion-icon{
+    font-size: larger;
+}
+
+.column1{
+    width: min-content;
+}
+
+textarea{
+    background-color: beige;
+}
+
+button{
+    font-family: Din;
+    background-color: #22092C;
+    color: wheat;
+    border-radius: 2%;
+}
+
+hr{
+    color: white;
+    width: 95%;
+    font-size: smaller;
+}
+
+.footericons{
+    display: flex;
+    font-size: x-large;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1.5%;
+}
+
+.footericons ion-icon{
+    margin-left: 2%;
+}
