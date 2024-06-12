@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Din;
+  src: url(/fonts/DIN\ Medium.ttf);
+}
+@font-face {
+  font-family: light;
+  src: url(/fonts/DIN.ttf);
+}
+@font-face {
+  font-family: Lora;
+  src: url(/fonts/Lora-VariableFont_wght.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  background-color: #FEFAF6;
+}
+
+.darkmode {
+  background-color: #22092C;
+  color: white;
+}
+
+.darkmode a {
+  color: white;
+}
+
+.navbar img {
+  width: 5%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Din;
+  font-size: large;
+  margin-top: 2%;
+}
+
+.navbar nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.navbar nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: -5%;
+  width: 6%;
+  align-items: center;
+}
+
+.icons ion-icon {
+  font-size: larger;
+  margin-left: 10%;
+}
+
+.icons img {
+  width: 100%;
+}
+
+.welcome {
+  font-family: Lora;
+  text-align: center;
+  margin-top: 5%;
+  color: orangered;
+}/*# sourceMappingURL=dashboard.css.map */

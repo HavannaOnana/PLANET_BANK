@@ -104,14 +104,13 @@ body{
 button{
     width: 50%;
     height: 29px;
-    background-color: orangered;
     border: none;
     color: #FEFAF6;
     transition: background-color 1s ease-in-out , border 1s ease-in-out;
 }
 
 button:hover{
-    background-color: #22092C;
+    background-color:orangered;
     border: #FEFAF6 1px solid;
 }
 
