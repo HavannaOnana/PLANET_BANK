@@ -85,7 +85,14 @@ body {
 .first_row {
   margin-top: 5%;
   background-color: lightcyan;
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: row;
+}
+
+.saving_account {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
 }/*# sourceMappingURL=dashboard.css.map */
