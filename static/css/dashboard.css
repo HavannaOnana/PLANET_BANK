@@ -10,6 +10,10 @@
   font-family: Lora;
   src: url(/fonts/Lora-VariableFont_wght.ttf);
 }
+@font-face {
+  font-family: Monserrat;
+  src: url(/fonts/Montserrat-Medium.otf);
+}
 body {
   margin: 0;
   padding: 0;
@@ -76,4 +80,12 @@ body {
   text-align: center;
   margin-top: 5%;
   color: orangered;
+}
+
+.first_row {
+  margin-top: 5%;
+  background-color: lightcyan;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
 }/*# sourceMappingURL=dashboard.css.map */
