@@ -84,7 +84,6 @@ body {
 
 .first_row {
   margin-top: 5%;
-  background-color: lightcyan;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -95,4 +94,34 @@ body {
   flex-direction: row;
   justify-content: space-between;
   width: 50%;
+  background-color: lightcyan;
+}
+
+.saving_account p {
+  font-family: monserrat;
+  font-size: x-small;
+  color: rgba(0, 0, 0, 0.451);
+}
+
+.saving_account .details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -4%;
+}
+
+.saving_account h2 {
+  font-family: lora;
+}
+
+.saving_account span {
+  color: orangered;
+}
+
+.details ion-icon {
+  margin-left: 4%;
+}
+
+.details p {
+  font-size: small;
 }/*# sourceMappingURL=dashboard.css.map */
