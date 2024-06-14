@@ -94,7 +94,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 50%;
+  width: 40%;
   background-color: beige;
   padding: 10px;
   border-radius: 15px;
@@ -147,9 +147,31 @@ body {
 .define {
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 40%;
+  background-color: orangered;
+  margin-left: 5%;
+  padding: 10px;
+  border-radius: 11px;
+  justify-content: space-evenly;
 }
 
 .define img {
   width: 20%;
+}
+
+.define button {
+  padding: 10px;
+  border-radius: 11px;
+  font-family: Din;
+  border: none;
+}
+
+.define h2 {
+  font-family: lora;
+}
+
+.define p {
+  font-family: monserrat;
+  font-size: x-small;
+  color: rgba(0, 0, 0, 0.451);
 }/*# sourceMappingURL=dashboard.css.map */
