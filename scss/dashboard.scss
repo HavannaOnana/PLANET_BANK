@@ -200,12 +200,13 @@ body{
 .company{
     display: flex;
     flex-direction: row;
-    width: 26%;
+    width: 20%;
     background-color: beige;
-    margin: 5px;
+    margin: 1px;
     justify-self: center;
     justify-content: space-around;
     border-radius: 10px;
+    color: #22092C;
 }
 
 .company_text{
@@ -273,4 +274,79 @@ body{
 
 .html{
     color: orangered;
+}
+
+.soundcloud{
+    color: orangered;
+}
+
+
+// final half css
+.final_half{
+    margin-top: 5%;
+    width: 100%;
+}
+
+.transactions{
+    width: 50%;
+    background-color: beige;
+}
+
+.transactions h2{
+    font-family: Lora;
+}
+
+.top_half{
+  display: flex;
+  flex-direction:row ;
+  align-items: center;
+  justify-content: space-around;
+  font-size: larger;
+}
+
+.payments{
+    display: flex;
+    flex-direction: column;
+}
+
+.payments h3{
+    font-family: lora;
+}
+
+.payments p{
+    font-family: monserrat;
+    font-size: small;
+}
+
+.payment{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.payment_money{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+//css for the types for money
+.food_type{
+    color: blue;
+}
+
+.payments hr{
+    width: 88%;
+}
+
+.cloth_type{
+    color: orangered;
+}
+
+.bills_type{
+    color: green;
 }
