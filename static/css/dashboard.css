@@ -274,6 +274,9 @@ body {
 .transactions {
   width: 50%;
   background-color: beige;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .transactions h2 {
@@ -315,7 +318,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  width: 60%;
+  width: 50%;
 }
 
 .food_type {
@@ -331,5 +334,9 @@ body {
 }
 
 .bills_type {
+  color: red;
+}
+
+.salary_type {
   color: green;
 }/*# sourceMappingURL=dashboard.css.map */
