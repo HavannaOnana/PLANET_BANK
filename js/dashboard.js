@@ -22,6 +22,12 @@ let Expenses = document.querySelector(".expenses");
 //selecting transactions 
 let Transactions = document.querySelector(".transactions");
 
+//selecting the footer background
+let Footer = document.querySelector("footer");
+
+// selecting footer image
+let FooterImage = document.querySelector(".footer_1");
+
 //adding event listener 
 Darkmode.addEventListener("click",function(){
     IsDarkMode = !IsDarkMode
@@ -35,6 +41,9 @@ Darkmode.addEventListener("click",function(){
         SavingsAccount.style.color ="black";
         Expenses.style.color = "gold"
         Transactions.style.color="black";
+        Footer.style.backgroundColor="whitesmoke";
+        Footer.style.color = "#22092C";
+        FooterImage.setAttribute("src", "/images/1-Photoroom.png-Photoroom.png");
     }
     else{
         HtmlBody.classList.remove("darkmode");
@@ -43,5 +52,8 @@ Darkmode.addEventListener("click",function(){
             element.style.color = "black";
         });
         Expenses.style.color = "white"
+        Footer.style.backgroundColor="#22092C";
+    Footer.style.color="whitesmoke";
+    FooterImage.setAttribute("src","/images/dark mode-Photoroom.png-Photoroom.png");
     }
 })
