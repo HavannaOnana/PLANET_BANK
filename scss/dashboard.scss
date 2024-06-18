@@ -370,7 +370,7 @@ body{
 //expenses
 .expenses{
   width: 50%;
-  background-color: bisque;
+  background-color: beige;
 }
 
 .top_half2{
@@ -412,4 +412,37 @@ body{
 .lastmonth{
     margin-left: 3%;
     font-family: lora;
+}
+
+.last_part{
+    display: flex;
+    flex-direction: row;
+}
+
+.outer-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(
+        green 0% 45%, 
+        white 45% 50%, 
+        blue 50% 55%, 
+        white 55% 60%, 
+        orangered 60% 85%, 
+        white 85% 90%, 
+        pink 90% 95%, 
+        white 95% 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inner-circle{
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    background-color: bisque;
+    border: 16px white solid;
 }
