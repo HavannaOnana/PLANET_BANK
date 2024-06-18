@@ -285,6 +285,8 @@ body{
 .final_half{
     margin-top: 5%;
     width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 .transactions{
@@ -305,6 +307,7 @@ body{
   align-items: center;
   justify-content: space-around;
   font-size: larger;
+  width: 100%;
 }
 
 .payments{
@@ -362,4 +365,51 @@ body{
     font-family: monserrat;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.473);
+}
+
+//expenses
+.expenses{
+  width: 50%;
+  background-color: bisque;
+}
+
+.top_half2{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: space-around;
+    font-size: larger;
+    width: 100%;
+}
+
+.top_half2 h2{
+    font-family: lora;
+}
+
+
+//daily
+.daily{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.daily p{
+    font-family: monserrat;
+    font-size: small;
+    color: rgba(0, 0, 0, 0.442);
+}
+
+.daily h3{
+    font-family: lora;
+}
+
+.expenses hr{
+    width: 87%;
+}
+
+.lastmonth{
+    margin-left: 3%;
+    font-family: lora;
 }
