@@ -16,6 +16,12 @@ let IsDarkMode = false;
 //selecting savings account node
 let SavingsAccount = document.querySelector(".saving_account");
 
+// selecting the last part fonts
+let Expenses = document.querySelector(".expenses");
+
+//selecting transactions 
+let Transactions = document.querySelector(".transactions");
+
 //adding event listener 
 Darkmode.addEventListener("click",function(){
     IsDarkMode = !IsDarkMode
@@ -26,7 +32,9 @@ Darkmode.addEventListener("click",function(){
         ALinks.forEach(element => {
             element.style.color = "white";
         });
-        SavingsAccount.style.color ="black"
+        SavingsAccount.style.color ="black";
+        Expenses.style.color = "gold"
+        Transactions.style.color="black";
     }
     else{
         HtmlBody.classList.remove("darkmode");
@@ -34,5 +42,6 @@ Darkmode.addEventListener("click",function(){
         ALinks.forEach(element => {
             element.style.color = "black";
         });
+        Expenses.style.color = "white"
     }
 })
